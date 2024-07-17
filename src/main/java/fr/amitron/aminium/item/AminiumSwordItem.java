@@ -22,7 +22,7 @@ public class AminiumSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 21f;
 			}
 
 			public int getHarvestLevel() {
@@ -36,6 +36,6 @@ public class AminiumSwordItem extends SwordItem {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(AminiumModItems.AMINIUMINGOT.get()));
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT));
+		}, 3, -1f, new Item.Properties().group(ItemGroup.COMBAT));
 	}
 }

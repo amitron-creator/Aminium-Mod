@@ -20,12 +20,12 @@ public abstract class AminiumArmorItem extends ArmorItem {
 		super(new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType type) {
-				return new int[]{13, 15, 16, 11}[type.getIndex()] * 45;
+				return new int[]{13, 15, 16, 11}[type.getIndex()] * 35;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType type) {
-				return new int[]{6, 18, 15, 6}[type.getIndex()];
+				return new int[]{4, 15, 10, 4}[type.getIndex()];
 			}
 
 			@Override
@@ -56,7 +56,7 @@ public abstract class AminiumArmorItem extends ArmorItem {
 
 			@Override
 			public float getKnockbackResistance() {
-				return 3f;
+				return 1f;
 			}
 		}, type, properties);
 	}
