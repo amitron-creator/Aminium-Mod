@@ -40,6 +40,8 @@ import java.util.ArrayList;
 import java.util.AbstractMap;
 
 import fr.amitron.aminium.init.AminiumModTabs;
+import fr.amitron.aminium.init.AminiumModItems;
+import fr.amitron.aminium.init.AminiumModBlocks;
 
 @Mod("aminium")
 public class AminiumMod {
@@ -50,6 +52,9 @@ public class AminiumMod {
 		MinecraftForge.EVENT_BUS.register(new AminiumModFMLBusEvents(this));
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		AminiumModTabs.load();
+
+		AminiumModBlocks.REGISTRY.register(bus);
+		AminiumModItems.REGISTRY.register(bus);
 
 		bus.register(this);
 	}
