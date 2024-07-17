@@ -257,38 +257,6 @@
           "src/main/resources/data/aminium/recipes/aminium_hoe_recipe.json"
         ]
       }
-    },
-    {
-      "name": "KillerSwordLivingEntityIsHitWithTool",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "killer_sword_living_entity_is_hit_with_tool",
-      "metadata": {
-        "files": [
-          "src/main/java/fr/amitron/aminium/procedures/KillerSwordLivingEntityIsHitWithToolProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "KillerSword",
-      "type": "tool",
-      "sortid": 20,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "killer_sword",
-      "metadata": {
-        "files": [
-          "src/main/java/fr/amitron/aminium/item/KillerSwordItem.java",
-          "src/main/resources/assets/aminium/models/item/killer_sword.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -302,7 +270,6 @@
       "item.aminium.aminium_axe": "Aminium Axe",
       "item.aminium.aminium_pickaxe": "Aminium Pickaxe",
       "item.aminium.aminium_sword": "Aminium Sword",
-      "item.aminium.killer_sword": "Killer Sword",
       "block.aminium.aminiumore": "Aminiumore",
       "item.aminium.aminium_hoe": "Aminium Hoe",
       "item.aminium.aminium_shovel": "Aminium Shovel",

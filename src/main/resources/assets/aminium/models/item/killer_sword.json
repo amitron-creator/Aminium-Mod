@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "aminium:items/kill_sword_texture"
+  }
+}

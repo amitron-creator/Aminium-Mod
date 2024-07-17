@@ -22,7 +22,7 @@ public class AminiumSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamage() {
-				return 21f;
+				return 15f;
 			}
 
 			public int getHarvestLevel() {

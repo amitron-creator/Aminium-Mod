@@ -12,6 +12,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.Block;
 
+import fr.amitron.aminium.item.KillerSwordItem;
 import fr.amitron.aminium.item.AminiumingotItem;
 import fr.amitron.aminium.item.AminiumSwordItem;
 import fr.amitron.aminium.item.AminiumShovelItem;
@@ -34,6 +35,7 @@ public class AminiumModItems {
 	public static final RegistryObject<Item> AMINIUM_SWORD = REGISTRY.register("aminium_sword", () -> new AminiumSwordItem());
 	public static final RegistryObject<Item> AMINIUM_SHOVEL = REGISTRY.register("aminium_shovel", () -> new AminiumShovelItem());
 	public static final RegistryObject<Item> AMINIUM_HOE = REGISTRY.register("aminium_hoe", () -> new AminiumHoeItem());
+	public static final RegistryObject<Item> KILLER_SWORD = REGISTRY.register("killer_sword", () -> new KillerSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, ItemGroup tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().group(tab)));
