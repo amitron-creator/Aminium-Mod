@@ -1,0 +1,59 @@
+{
+  "mod_elements": [
+    {
+      "name": "Aminiumtab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminiumtab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Aminiumore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminiumore",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/amitron/aminium/block/AminiumoreBlock.java",
+          "src/main/resources/assets/aminium/models/item/aminiumore.json",
+          "src/main/resources/assets/aminium/blockstates/aminiumore.json",
+          "src/main/resources/assets/aminium/models/block/aminiumore.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.aminium.aminiumore": "Aminiumore",
+      "itemGroup.tab_aminiumtab": "Aminium Mod"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "aminium",
+    "modName": "Aminium Mod",
+    "version": "1.0.0",
+    "author": "Martin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "fr.amitron.aminium",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

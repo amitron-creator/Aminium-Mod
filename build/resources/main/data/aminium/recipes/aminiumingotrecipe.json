@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 250,
+  "ingredient": {
+    "item": "aminium:aminiumore"
+  },
+  "result": "aminium:aminiumingot"
+}

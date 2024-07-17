@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "aminium:aminiumingot"
+    },
+    "1": {
+      "item": "aminium:aminiumingot"
+    },
+    "2": {
+      "item": "aminium:aminiumingot"
+    },
+    "3": {
+      "item": "aminium:aminiumingot"
+    },
+    "5": {
+      "item": "aminium:aminiumingot"
+    }
+  },
+  "result": {
+    "item": "aminium:aminium_armor_helmet",
+    "count": 1
+  }
+}

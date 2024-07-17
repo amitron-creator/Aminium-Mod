@@ -1,3 +1,14 @@
 {
-  "itemGroup.tab_aminiumtab": "Aminium Mod"
+  "item.aminium.aminium_armor_chestplate": "Aminium Chestplate",
+  "item.aminium.aminium_armor_leggings": "Aminium Leggings",
+  "itemGroup.tab_aminiumtab": "Aminium Mod",
+  "item.aminium.aminium_armor_boots": "Aminium Boots",
+  "item.aminium.aminium_axe": "Aminium Axe",
+  "item.aminium.aminium_pickaxe": "Aminium Pickaxe",
+  "item.aminium.aminium_sword": "Aminium Sword",
+  "block.aminium.aminiumore": "Aminiumore",
+  "item.aminium.aminium_hoe": "Aminium Hoe",
+  "item.aminium.aminium_shovel": "Aminium Shovel",
+  "item.aminium.aminiumingot": "Aminium Ingot",
+  "item.aminium.aminium_armor_helmet": "Aminium Helmet"
 }

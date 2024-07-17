@@ -3,11 +3,259 @@
     {
       "name": "Aminiumtab",
       "type": "tab",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aminiumtab",
       "metadata": {
         "files": []
+      }
+    },
+    {
+      "name": "Aminiumore",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminiumore",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/amitron/aminium/block/AminiumoreBlock.java",
+          "src/main/resources/assets/aminium/models/item/aminiumore.json",
+          "src/main/resources/assets/aminium/blockstates/aminiumore.json",
+          "src/main/resources/assets/aminium/models/block/aminiumore.json"
+        ]
+      }
+    },
+    {
+      "name": "Aminiumingot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminiumingot",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/amitron/aminium/item/AminiumingotItem.java",
+          "src/main/resources/assets/aminium/models/item/aminiumingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Aminiumingotrecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminiumingotrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aminium/recipes/aminiumingotrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AminiumArmor",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aminium/models/item/aminium_armor_chestplate.json",
+          "src/main/resources/assets/aminium/models/item/aminium_armor_leggings.json",
+          "src/main/java/fr/amitron/aminium/item/AminiumArmorItem.java",
+          "src/main/resources/assets/aminium/models/item/aminium_armor_boots.json",
+          "src/main/resources/assets/aminium/models/item/aminium_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "AminiumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aminium/recipes/aminium_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AminiumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminium_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aminium/recipes/aminium_armor_body_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AminiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aminium/recipes/aminium_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AminiumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aminium/recipes/aminium_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AminiumPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/amitron/aminium/item/AminiumPickaxeItem.java",
+          "src/main/resources/assets/aminium/models/item/aminium_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "AminiumAxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminium_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aminium/models/item/aminium_axe.json",
+          "src/main/java/fr/amitron/aminium/item/AminiumAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AminiumSword",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminium_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/amitron/aminium/item/AminiumSwordItem.java",
+          "src/main/resources/assets/aminium/models/item/aminium_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "AminiumShovel",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/amitron/aminium/item/AminiumShovelItem.java",
+          "src/main/resources/assets/aminium/models/item/aminium_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "AminiumHoe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/aminium/models/item/aminium_hoe.json",
+          "src/main/java/fr/amitron/aminium/item/AminiumHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AminiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aminium/recipes/aminium_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AminiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aminium/recipes/aminium_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AminiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aminium/recipes/aminium_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AminiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aminium/recipes/aminium_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "AminiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aminium/recipes/aminium_hoe_recipe.json"
+        ]
       }
     }
   ],
@@ -15,7 +263,18 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tab_aminiumtab": "Aminium Mod"
+      "item.aminium.aminium_armor_chestplate": "Aminium Chestplate",
+      "item.aminium.aminium_armor_leggings": "Aminium Leggings",
+      "itemGroup.tab_aminiumtab": "Aminium Mod",
+      "item.aminium.aminium_armor_boots": "Aminium Boots",
+      "item.aminium.aminium_axe": "Aminium Axe",
+      "item.aminium.aminium_pickaxe": "Aminium Pickaxe",
+      "item.aminium.aminium_sword": "Aminium Sword",
+      "block.aminium.aminiumore": "Aminiumore",
+      "item.aminium.aminium_hoe": "Aminium Hoe",
+      "item.aminium.aminium_shovel": "Aminium Shovel",
+      "item.aminium.aminiumingot": "Aminium Ingot",
+      "item.aminium.aminium_armor_helmet": "Aminium Helmet"
     }
   },
   "foldersRoot": {

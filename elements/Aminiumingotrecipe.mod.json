@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 5.0,
+    "cookingTime": 250,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Aminiumore"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Aminiumingot"
+    },
+    "name": "aminiumingotrecipe",
+    "namespace": "mod"
+  }
+}

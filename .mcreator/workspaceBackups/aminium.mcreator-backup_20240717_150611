@@ -1,0 +1,87 @@
+{
+  "mod_elements": [
+    {
+      "name": "Aminiumtab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminiumtab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Aminiumore",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminiumore",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/amitron/aminium/block/AminiumoreBlock.java",
+          "src/main/resources/assets/aminium/models/item/aminiumore.json",
+          "src/main/resources/assets/aminium/blockstates/aminiumore.json",
+          "src/main/resources/assets/aminium/models/block/aminiumore.json"
+        ]
+      }
+    },
+    {
+      "name": "Aminiumingot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminiumingot",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/amitron/aminium/item/AminiumingotItem.java",
+          "src/main/resources/assets/aminium/models/item/aminiumingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Aminiumingotrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aminiumingotrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/aminium/recipes/aminiumingotrecipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.aminium.aminiumore": "Aminiumore",
+      "itemGroup.tab_aminiumtab": "Aminium Mod",
+      "item.aminium.aminiumingot": "Aminium Ingot"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "aminium",
+    "modName": "Aminium Mod",
+    "version": "1.0.0",
+    "author": "Martin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "fr.amitron.aminium",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
